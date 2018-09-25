@@ -13,6 +13,11 @@ module.exports = {
         options: { presets: ["@babel/env"] }
       },
       {
+        test: /\.(js|jsx)$/,
+        exclude: /(node_modules|bower_components)/,
+        use: ["eslint-loader"]
+      },
+      {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
       },

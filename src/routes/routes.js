@@ -10,6 +10,6 @@ const Main = () => (
       <Route exact path='/login' component={Login}/>
     </Switch>
   </App>
-)
+);
 
 export default Main;

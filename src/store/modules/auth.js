@@ -1,7 +1,3 @@
-
-import { push } from 'react-router-redux';
-// import { roles } from '../../../config/default';
-
 const LOAD = 'auth/LOAD';
 const LOAD_SUCCESS = 'auth/LOAD_SUCCESS';
 const LOAD_FAIL = 'auth/LOAD_FAIL';

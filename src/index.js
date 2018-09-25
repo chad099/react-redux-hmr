@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import ApiClient from './helpers/ApiClient';
 import createStore from './store/create';
 import createHistory from 'history/createBrowserHistory';
-import App from "./App.js";
 import Main from "./routes/routes";
 import { AppContainer } from 'react-hot-loader';
 import { BrowserRouter } from 'react-router-dom';
